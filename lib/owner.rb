@@ -41,6 +41,7 @@ class Owner
   end
 
   def walk_dogs
+    pets[:dogs].each do |
   end
 
   def feed_fish
