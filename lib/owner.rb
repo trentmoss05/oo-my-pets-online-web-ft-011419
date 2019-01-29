@@ -9,6 +9,10 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
+  def self.reset_all
+    OWNERS.clear
+  end
+
   def self.count
     OWNERS.size
   end
