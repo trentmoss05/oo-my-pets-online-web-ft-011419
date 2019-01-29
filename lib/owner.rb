@@ -3,14 +3,14 @@ class Owner
   attr_reader :species
   OWNERS = []
 
-  def initialize(name)
-    @@count += 1
+  def initialize(species)
+    @species = species
     OWNERS << self
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.count
-    @@count
+    OWNERS.size
   end
 
   def self.all
