@@ -14,7 +14,7 @@ class Owner
   end
 
   def self.all
-    @@all
+
   end
 
   def buy_fish(name)
