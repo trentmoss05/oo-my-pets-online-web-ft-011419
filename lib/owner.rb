@@ -37,4 +37,19 @@ class Owner
     "I am a #{@species}."
   end
 
+  def list_pets
+  end
+
+  def walk_dogs
+  end
+
+  def feed_fish
+  end
+
+  def sell_pets
+  end
+
+  def play_with_cats
+
+  end
 end
