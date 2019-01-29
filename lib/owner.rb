@@ -18,11 +18,11 @@ class Owner
   end
 
   def self.all
-
+    OWNERS
   end
 
   def buy_fish(name)
-    new_fish = Fish.new(name)
+    pets[:fishes] << Fish.new(name)
   end
 
 
