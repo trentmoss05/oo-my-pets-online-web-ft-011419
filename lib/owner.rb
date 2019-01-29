@@ -33,5 +33,7 @@ class Owner
     pets[:dogs] << Dog.new(name)
   end
 
+  def say_species
+    puts "I am a #{@species}."
 
 end
