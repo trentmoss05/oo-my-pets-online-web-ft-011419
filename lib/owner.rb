@@ -5,7 +5,7 @@ class Owner
 
   def initialize(name)
     @@count += 1
-    @@all << self
+    OWNERS << self
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
@@ -19,7 +19,7 @@ class Owner
 
   def buy_fish(name)
     new_fish = Fish.new(name)
-
+  end
 
 
 
